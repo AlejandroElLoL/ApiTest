@@ -9,4 +9,4 @@ router.post("/cursos", createCursos)
 router.patch("/cursos/:id", updateCursos)   
 router.delete("/cursos/:id", deleteCursos)
 
-export default router
+export default router;
