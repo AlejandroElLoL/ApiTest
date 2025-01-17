@@ -1,5 +1,5 @@
-const express = require('express');
-const cursosRoutes = require('./routes/cursos.routes.js');
+import express from 'express'
+import cursosRoutes from './routes/cursos.routes.js'
 
 const app = express()
 app.use(express.json())
