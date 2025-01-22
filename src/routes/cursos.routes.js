@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { getCursos, getCurso, createCursos, updateCursos, deleteCursos } = require('../controllers/cursos.controller.js');
+const { getCursos, getCurso, createCursos, updateCursos, deleteCursos } = require('../controllers/cursos.controllers.js');
 
 const router = Router();
 
